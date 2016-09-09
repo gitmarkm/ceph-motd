@@ -7,13 +7,12 @@ nodes and roles is not contained in this release.
 
 To use:
 
-1. Copy motd.sh to /usr/local/bin
-2. Verify executable mode (chmod 755 motd.sh)
-3. Add these two lines to the end of /etc/profile file:
-    # ceph cluster motd execution
-    /usr/local/bin/motd.sh
-4. Verify /tmp is available to write.
-5. Done.
+ - Copy motd.sh to /usr/local/bin
+ - Verify executable mode (chmod 755 motd.sh)
+ - Add these two lines to the end of /etc/profile file by running this command:
+   echo -e "\n# ceph cluster motd execution\n/usr/local/bin/motd.sh" >> /etc/profile
+ - Verify /tmp is available to write.
+ - Done.
 
 --
 markm

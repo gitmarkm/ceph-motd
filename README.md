@@ -11,8 +11,8 @@ To use:
 2. Verify executable mode (chmod 755 motd.sh)
 3. Add these two lines to the end of /etc/profile file the following lines:
 
-# ceph cluster motd execution
-/usr/local/bin/motd.sh
+ # ceph cluster motd execution
+ /usr/local/bin/motd.sh
 
 4. Verify /tmp is available to write.
 5. Done.
